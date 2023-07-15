@@ -1,3 +1,15 @@
+@media (min-width: 768px) { 
+    .header-text {
+        margin: 100px 0px !important;
+        margin-bottom: 50px !important;
+    }
+ }
+
+.header-text {
+    margin: 350px 0px;
+    margin-bottom: 30px;
+}
+
 .card {
     border-width: 0px;
     overflow: hidden;
