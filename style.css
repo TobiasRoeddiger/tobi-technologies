@@ -13,5 +13,22 @@
 
 .custom-shadow {
     -webkit-box-shadow: inset 0px -2px 16px 0px #000000; 
-box-shadow: inset 0px -2px 16px 0px #000000;
+    box-shadow: inset 0px -2px 16px 0px #000000;
+}
+
+.footer {
+    background-color: rgb(72, 72, 72);
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+
+.btn-book {
+    background-color: rgb(120, 120, 120);
+    font-weight: bold;
+}
+
+.btn-book:hover {
+    background-color: rgb(150, 150, 150);
+    font-weight: bold;
 }
