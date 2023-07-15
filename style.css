@@ -1,0 +1,17 @@
+.card {
+    border-width: 0px;
+}
+
+.menu-item {
+    font-weight: bold;
+    margin: 0px 12px;
+}
+
+.menu-item:hover {
+    color: #FF0000;
+}
+
+.custom-shadow {
+    -webkit-box-shadow: inset 0px -2px 16px 0px #000000; 
+box-shadow: inset 0px -2px 16px 0px #000000;
+}
