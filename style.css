@@ -1,7 +1,11 @@
 @media (min-width: 768px) { 
     .header-text {
-        margin: 100px 0px !important;
-        margin-bottom: 50px !important;
+        margin: 230px 0px !important;
+        margin-bottom: 180px !important;
+    }
+
+    .margin-blob {
+        margin-top: 110px
     }
  }
 
