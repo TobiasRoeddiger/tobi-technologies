@@ -9,6 +9,15 @@
     }
  }
 
+ body {
+    font-size: small;
+
+ }
+
+ .card-body {
+    text-align: left;
+ }
+
 .header-text {
     margin: 350px 0px;
     margin-bottom: 30px;
