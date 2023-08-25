@@ -11,10 +11,20 @@
 
 html {
     scroll-behavior: smooth;
+    
 }
 
  body {
     font-size: small;
+    background: rgb(24, 23, 23) !important;
+    font-family: 'Grandview', sans-serif;
+ }
+
+ .marker-text {
+    background: red;
+    padding: 5px 12px;
+    font-size: 25px;
+    background: rgb(119, 242, 161);
 
  }
 
@@ -35,7 +45,7 @@ a:active {
 }
 
  a .menu-item {
-    color: black;
+    color: white;
  }
 
  .card-body {
@@ -50,7 +60,8 @@ a:active {
 .card {
     border-width: 0px;
     overflow: hidden;
-    border-radius: 0px;
+    background: rgb(53, 53, 53);
+    color: white;
 }
 
 .menu-item {
@@ -58,8 +69,12 @@ a:active {
     margin: 0px 12px;
 }
 
+.gray {
+    filter: grayscale(1);
+}
+
 .menu-item:hover {
-    color: #FF0000;
+    color: rgb(119, 242, 161);
 }
 
 .custom-shadow {
@@ -75,9 +90,10 @@ a:active {
 }
 
 .btn-book {
-    background-color: black;
+    background-color: white;
     font-weight: bold;
-    border-radius: 0px;
+    border-radius: 5px;
+    color: black !important;
 }
 
 .btn-book:hover {
