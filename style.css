@@ -14,8 +14,36 @@ html {
     
 }
 
+h4 {
+    color: rgb(119, 242, 161);
+}
+
+h3 {
+    color: #AAA !important;
+    margin-top: 4em;
+}
+
+/*h4::before {
+    content: "";
+    position: absolute; 
+    left: -25px;
+    top: 40%; 
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px; 
+    background-color: white;
+    border-radius: 50%;
+}
+*/
+
+
+
+.infoBoxProcess {
+    padding: 8px;
+}
+
  body {
-    font-size: small;
+    font-size: regular;
     background: rgb(24, 23, 23) !important;
     font-family: 'Grandview', sans-serif;
  }
