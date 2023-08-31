@@ -101,6 +101,33 @@ h4::before {
     border-style: hidden hidden hidden dashed;
 }
 
+
+.card-stack {
+    max-width: 800px;
+}
+
+.card-stack .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background: white;
+    color: black;
+}
+
+.card-stack .card:first-child {
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+.card-stack .card:last-child {
+    transform: rotate(0.8deg);
+    z-index: 2;
+    left: -10px;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 @media (min-width: 768px) {
     .hide-h4::before {
         content: "";
