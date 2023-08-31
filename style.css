@@ -291,6 +291,16 @@ a:active {
     max-height: 350px;
     overflow: hidden;
 }
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: lightgray;
+    font-weight: bold;
+}
   
   .image1 {
     position: relative;
