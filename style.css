@@ -112,16 +112,6 @@ h4::before {
     color: black;
 }
 
-.card-stack .card:first-child {
-    transform: rotate(0deg);
-    z-index: 1;
-}
-
-.card-stack .card:last-child {
-    transform: rotate(0deg);
-    z-index: 2;
-    left: -10px;
-}
 
 h6 {
     font-weight: bold;
